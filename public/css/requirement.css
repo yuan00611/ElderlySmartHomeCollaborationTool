@@ -1,0 +1,133 @@
+#re{
+	margin: 50px;
+	border: 2px solid #1dc8cd;
+	padding: 10px;
+	/*background-color: rgba(29, 224, 205, 0.3);*/
+}
+
+/*--------------------------------------------------------------*/
+/* Sections Header
+--------------------------------*/
+.section-header .section-title {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 400;
+}
+
+.section-header .section-description {
+  text-align: center;
+  padding-bottom: 40px;
+  color: #777;
+  font-style: italic;
+}
+
+.section-header .section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1dc8cd;
+  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+.pic{
+	margin-left: -179px;
+	margin-top: 10px;
+}
+
+div{
+	text-align: center;
+}
+
+input[type=file]{
+	display: inline;
+}
+
+table{
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+td{
+	padding: 10px;
+	
+}
+
+label{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+input[type=submit] {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+input[type=submit]:hover {
+  color: #1dc8cd;
+  background: #fff;
+  border: 2px solid #1dc8cd;
+}
+
+
+.styled-checkbox {
+  position: absolute;
+  opacity: 0;
+}
+.styled-checkbox + label {
+  position: relative;
+  cursor: pointer;
+  padding: 0;
+}
+.styled-checkbox + label:before {
+  content: '';
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: text-top;
+  width: 20px;
+  height: 20px;
+  background: #E6E6E6;
+}
+.styled-checkbox:hover + label:before {
+  background: #76d7db;
+}
+.styled-checkbox:focus + label:before {
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+}
+.styled-checkbox:checked + label:before {
+  background: #1dc8cd;
+}
+.styled-checkbox:disabled + label {
+  color: #b8b8b8;
+  cursor: auto;
+}
+.styled-checkbox:disabled + label:before {
+  box-shadow: none;
+  background: #ddd;
+}
+.styled-checkbox:checked + label:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 9px;
+  background: white;
+  width: 2px;
+  height: 2px;
+  box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+

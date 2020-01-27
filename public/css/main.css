@@ -1,0 +1,281 @@
+*{
+	vertical-align: center;
+	outline: none;
+	/*border-style: solid;
+	background-color: #99FF99;*/
+}
+
+/*--------------------------------------------------------------*/
+/* Sections Header
+--------------------------------*/
+.section-header .section-title {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 400;
+}
+
+.section-header .section-description {
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #777;
+  font-style: italic;
+}
+
+.section-header .section-divider {
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1dc8cd;
+  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/*--------------------------------------------------------------*/
+/*--------------------------------------------------------------*/
+/* 左半邊
+--------------------------------*/
+.whole{
+	margin-top: -20px;
+	height: 700px;
+}
+
+.cards{
+	/*display: flex;*/
+	justify-content: left;
+	width: 350px;
+	height: 650px;
+	float: left;
+	overflow: scroll;
+	/*border: 1px solid black;*/
+	margin-left: 100px;
+		
+}
+
+.card{
+	border: 2px solid #1dc8cd;
+	/*border-radius: 5px;*/
+	margin-bottom: 10px;
+	margin-left: 5px;
+	/*box-shadow: 0px 0px 10px rgba(73, 78, 92, 0.15);*/
+
+	width: 340px;
+	height: 126px;
+	display: inline-flex;
+	/*background-color: rgba(blue, 0.9);*/
+}
+
+.left{
+	flex: 2;
+	text-align: center; 
+}
+.right{		
+	flex: 3;
+}
+.cover{
+	width: 90px;
+	height: 90px;
+	/*border-radius: 5px;*/
+}
+
+.see{
+	display: none;
+}
+
+.listen{
+	display: none;
+}
+
+.muscle{
+	display: none;
+}
+
+.balance{
+	display: none;
+}
+
+.memory{
+	display: none;
+}
+
+.sleep{
+	display: none;
+}
+
+.accident{
+	display: none;
+}
+
+.health{
+	display: none;
+}
+
+.psy{
+	display: none;
+}
+
+
+h1{
+	font-size: 20px;
+	font-weight: 300;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DDDDDD;
+	
+}
+
+h1::after{
+	content: "▼";
+	float: right;
+	color: #1dc8cd;
+}
+
+h2{
+	color: #444;
+	margin: 3px;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+p{
+	margin: 1px;
+	color: #999;
+}
+
+span{
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------*/
+/* 右半邊
+--------------------------------*/
+
+canvas{
+	/*width: 600px;
+	height: 450px; */
+	margin-top : 20px; 
+	cursor: pointer;
+	border: 1px solid black;
+}
+
+#can1{
+	margin-left: 530px;
+	margin-top: 70px;
+}
+
+button{
+	border:none;
+	background: linear-gradient(45deg, #1de099, #1dc8cd);
+  	display: inline-block;
+  	padding: 6px 20px;
+  	border-radius: 20px;
+  	color: #fff;
+  	transition: none;
+  	font-size: 14px;
+  	font-weight: 400;
+  	font-family: "Montserrat", sans-serif;
+}
+
+button:hover{
+	color: black;
+}
+
+.add{
+	float: right;
+	margin-right: 2px;
+}
+
+.btn{
+	background: linear-gradient(45deg, #1de099, #1dc8cd);
+  	display: inline-block;
+  	padding: 6px 30px;
+  	border-radius: 20px;
+  	color: #fff;
+  	transition: none;
+  	font-size: 14px;
+  	font-weight: 400;
+  	font-family: "Montserrat", sans-serif;
+}
+
+.b{
+	float: left;
+}
+
+.b2{
+	float: right;
+	margin-right: 120px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 5px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin-top: 2px;
+  border: 2px solid #1dc8cd;
+  color: black;
+}
+
+a:hover {
+  color: #1dc8cd;
+  background: #fff;
+  border: 2px solid #1dc8cd;
+}
+
+/*--------------------------------------------------------------*/
+/* 結果頁
+--------------------------------*/
+#result{
+	height: 700px;
+	margin-left: 30px;
+}
+
+#saveImage{
+	float: left;
+}
+
+table{
+	width: 550px;
+	height: 360px;
+	text-align: center;
+	table-layout: fixed;
+	word-wrap: break-word;
+	border-spacing: 10px;
+	border-collapse: separate;
+	padding-left: 30px; 
+	
+}
+
+td{
+	/*border:2px solid black;
+	margin: 100px;*/
+
+    box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+    background: #fff;
+    text-align: center;
+    /*padding: 10px;*/
+}
+
+.box{
+	width: 30%;
+	/*height: 20%;*/
+}
+
+span{
+	font-size: 25px;
+	padding-left: 10px;
+	color: #bababa;
+}
+
+h3{
+	padding-left: 15px;
+}
+
+
+
+
+
